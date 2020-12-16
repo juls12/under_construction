@@ -1,19 +1,9 @@
 @import url(https://fonts.googleapis.com/css?family=Montserrat);
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700);
+
 
 body{
     background-color: #ebeae4;
-    color: #031f1c;
-}
-
-h1 {
-  margin: 0;
-  font-family: 'Montserrat', sans-serif;
-  font-size: 4em;
-  -webkit-text-shadow: 0 2px 1px rgba(0, 0, 0, 0.6), 0 0 2px rgba(0, 0, 0, 0.7);
-  -moz-text-shadow: 0 2px 1px rgba(0, 0, 0, 0.6), 0 0 2px rgba(0, 0, 0, 0.7);
-  text-shadow: 0 2px 1px rgba(0, 0, 0, 0.6), 0 0 2px rgba(0, 0, 0, 0.7);
-  word-spacing: 16px;
+    color: #38524f;
 }
 
 .container {
@@ -21,7 +11,6 @@ h1 {
   top: 0;
   bottom: 0;
   width: 100%;
-  background: url('');
   background-size: cover;
 }
 
@@ -45,6 +34,43 @@ h1 {
   padding: 8px;
 }
 
+.button {
+  position: relative;
+  padding: 14px 0;
+  border: 2px #38524f solid;
+  float: left;
+  color: #38524f;
+  cursor: pointer;
+  font-family: font;
+  font-size: 0.9em;
+  text-transform: uppercase;
+  transition: color 0.4s, background-color 0.4s;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+  display: inline-block;
+  vertical-align: middle;
+  line-height: 1em;
+  outline: none;
+  text-align: center;
+  text-decoration: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  width: 210px;
+  top: 50%;
+  left: 50%;
+  margin: 0 -105px;
+  width: 210px;
+}
+
+.button:hover {
+  transition: color 0.4s, background-color 0.4s;
+  color: white;
+  text-decoration: none;
+  background-color: #38524f;
+}
 
 
 @keyframes grainAnimation {
@@ -120,15 +146,14 @@ h1 {
 
   h5{
     word-spacing: 30px;
-
   }
 
   a {
-    color: #031f1c;
+    color: #38524f;
   }
   
   a:visited {
-    color:  #031f1c;
+    color:  #38524f;
   }
 
   a:hover {
