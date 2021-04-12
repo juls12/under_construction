@@ -65,12 +65,12 @@ body{
   width: 210px;
 }
 
-.button:hover {
+/* .button:hover {
   transition: color 0.4s, background-color 0.4s;
   color: white;
   text-decoration: none;
   background-color: #38524f;
-}
+} */
 
 
 @keyframes grainAnimation {
@@ -160,9 +160,6 @@ body{
     color: #DD4949;
   }
 
-  a:active {
-    color: #DD4949;
-  }
 
   a {
     text-decoration: none;
@@ -172,7 +169,7 @@ body{
 
 @media only screen and (min-width: 800px) {
   h1 {
-    font-size: 6em;
+    font-size: 4em;
   }
   p {
     font-size: 1.6em;
